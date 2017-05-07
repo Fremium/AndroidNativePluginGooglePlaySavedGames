@@ -1,0 +1,50 @@
+05-07 09:16:18.672: I/Unity(16715): Skipped 15 frames!  The application may be doing too much work on its main thread.
+05-07 09:16:18.681: I/Unity(16715): AN: Using proxy for class: com.androidnative.gms.core.GameClientBridge method:sendGiftRequest
+05-07 09:16:18.681: I/Unity(16715): UnityEngine.Debug:Internal_Log(Int32, String, Object)
+05-07 09:16:18.681: I/Unity(16715): UnityEngine.Debug:Log(Object)
+05-07 09:16:18.681: I/Unity(16715): AN_ProxyPool:CallStatic(String, String, Object[]) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_ProxyPool.cs:18)
+05-07 09:16:18.681: I/Unity(16715): AN_GMSGiftsProxy:CallActivityFunction(String, Object[]) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GMSGiftsProxy.cs:9)
+05-07 09:16:18.681: I/Unity(16715): AN_GMSGiftsProxy:sendGiftRequest(Int32, String, Int32, String, String) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_GMSGiftsProxy.cs:17)
+05-07 09:16:18.681: I/Unity(16715): GooglePlayManager:SendGiftRequest(GPGameRequestType, Int32, Texture2D, String, String) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayManager.cs:283)
+05-07 09:16:18.681: I/Unity(16715): MainMenuManager:OnGooglePlusInviteActionComplet
+05-07 09:16:18.708: D/skia(16715): Flag is not 10
+05-07 09:16:18.728: I/Unity(16715): AndroidJavaException: java.lang.IllegalStateException: GoogleApiClient must be connected.
+05-07 09:16:18.728: I/Unity(16715):   at UnityEngine.AndroidJNISafe.CheckException () [0x00000] in <filename unknown>:0
+05-07 09:16:18.728: I/Unity(16715):   at UnityEngine.AndroidJNISafe.CallStaticVoidMethod (IntPtr clazz, IntPtr methodID, UnityEngine.jvalue[] args) [0x00000] in <filename unknown>:0
+05-07 09:16:18.728: I/Unity(16715):   at UnityEngine.AndroidJavaObject._CallStatic (System.String methodName, System.Object[] args) [0x00000] in <filename unknown>:0
+05-07 09:16:18.728: I/Unity(16715):   at UnityEngine.AndroidJavaObject.CallStatic (System.String methodName, System.Object[] args) [0x00000] in <filename unknown>:0
+05-07 09:16:18.728: I/Unity(16715):   at AN_ProxyPool+<CallStatic>c__AnonStorey14.<>m__9F () [0x00000] in E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\System\APIBridge\AN_ProxyPool.cs:34
+05-07 09:16:18.728: I/Unity(16715):   at UnityEngine.AndroidJavaRunnableProxy.run () [0x00000] in <filename unknown>:0
+05-07 09:16:18.728: I/Unity(16715):   at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globaliza
+05-07 09:16:19.058: D/AndroidNative(16715): GoogleApiClient connected
+05-07 09:16:19.064: D/AndroidNative(16715): accountName hfkkfjsd@gmail.com
+05-07 09:16:19.064: D/AndroidNative(16715): onConnected: connection hint has 0 request(s)
+05-07 09:16:19.065: D/AndroidNative(16715): ************** FINAL: Google Play Connection result: 0 ************
+05-07 09:16:19.065: D/AndroidNative(16715): GameInvitationManager onConnected
+05-07 09:16:19.072: D/AndroidNative(16715): setViewForPopups
+05-07 09:16:19.073: D/AndroidNative(16715): AN_QuestUpdateListener registred
+05-07 09:16:19.076: I/Unity(16715): OnPlayerDataLoaded
+05-07 09:16:19.076: I/Unity(16715): UnityEngine.Debug:Internal_Log(Int32, String, Object)
+05-07 09:16:19.076: I/Unity(16715): UnityEngine.Debug:Log(Object)
+05-07 09:16:19.076: I/Unity(16715): GooglePlayManager:OnPlayerDataLoaded(String) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayManager.cs:650)
+05-07 09:16:19.076: I/Unity(16715):  
+05-07 09:16:19.076: I/Unity(16715): (Filename: E Line: 0)
+05-07 09:16:19.080: I/Unity(16715): [OnConnectionResult] resultCode 0
+05-07 09:16:19.080: I/Unity(16715): UnityEngine.Debug:Internal_Log(Int32, String, Object)
+05-07 09:16:19.080: I/Unity(16715): UnityEngine.Debug:Log(Object)
+05-07 09:16:19.080: I/Unity(16715): GooglePlayConnection:OnConnectionResult(String) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayConnection.cs:193)
+05-07 09:16:19.080: I/Unity(16715):  
+05-07 09:16:19.080: I/Unity(16715): (Filename: E Line: 0)
+05-07 09:16:19.124: I/Unity(16715): Play Serice Connection State -> STATE_CONNECTED
+05-07 09:16:19.124: I/Unity(16715): UnityEngine.Debug:Internal_Log(Int32, String, Object)
+05-07 09:16:19.124: I/Unity(16715): UnityEngine.Debug:Log(Object)
+05-07 09:16:19.124: I/Unity(16715): GooglePlayConnection:OnStateChange(GPConnectionState) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayConnection.cs:223)
+05-07 09:16:19.124: I/Unity(16715): GooglePlayConnection:OnConnectionResult(String) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayConnection.cs:199)
+05-07 09:16:19.124: I/Unity(16715):  
+05-07 09:16:19.124: I/Unity(16715): (Filename: E Line: 0)
+05-07 09:16:19.129: I/Unity(16715): ConnectionResult: SUCCESS
+05-07 09:16:19.129: I/Unity(16715): UnityEngine.Debug:Internal_Log(Int32, String, Object)
+05-07 09:16:19.129: I/Unity(16715): UnityEngine.Debug:Log(Object)
+05-07 09:16:19.129: I/Unity(16715): GooglePlayGamesServices:OnConnectionResult(GooglePlayConnectionResult) (at E:\Users\Unity3D\Game\Assets\Scripts\Game\GooglePlayGamesServices.cs:248)
+05-07 09:16:19.129: I/Unity(16715): GooglePlayConnection:OnConnectionResult(String) (at E:\Users\Unity3D\Game\Assets\Plugins\StansAssets\Modules\AndroidNative\Scripts\PlayServices\Core\Controllers\GooglePlayConnection.cs:204)
+05-07 09:16:19.129: I/Unity(16715): 
