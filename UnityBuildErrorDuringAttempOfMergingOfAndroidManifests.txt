@@ -1,0 +1,21 @@
+CommandInvokationFailure: Unable to merge android manifests. See the Console for more details. 
+C:/Program Files/Java/jdk1.8.0_121\bin\java.exe -Xmx2048M -Dcom.android.sdkmanager.toolsdir="D:/Android/sdk\tools" -Dfile.encoding=UTF8 -jar "D:\Program Files\Unity_v5.2.2p1\Editor\Data\PlaybackEngines\androidplayer/Tools\sdktools.jar" -
+
+stderr[
+
+]
+stdout[
+Warning: [Temp\StagingArea\AndroidManifest-main.xml:4, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\androidnative\AndroidManifest.xml:3] Main manifest has <uses-sdk android:targetSdkVersion='22'> but library uses targetSdkVersion='25'
+Warning: [Temp\StagingArea\AndroidManifest-main.xml:4, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\an_billing\AndroidManifest.xml:3] Main manifest has <uses-sdk android:targetSdkVersion='22'> but library uses targetSdkVersion='25'
+Warning: [Temp\StagingArea\AndroidManifest-main.xml:4, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\an_googleplay\AndroidManifest.xml:3] Main manifest has <uses-sdk android:targetSdkVersion='22'> but library uses targetSdkVersion='25'
+Warning: [Temp\StagingArea\AndroidManifest-main.xml:4, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\an_social\AndroidManifest.xml:3] Main manifest has <uses-sdk android:targetSdkVersion='22'> but library uses targetSdkVersion='25'
+[Temp\StagingArea\AndroidManifest-main.xml:63, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\facebook-android-sdk-4.14.0\AndroidManifest.xml:6] Skipping identical /manifest/application/activity[@name=com.facebook.FacebookActivity] element.
+Warning: [Temp\StagingArea\AndroidManifest-main.xml:4, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\facebook-android-sdk-4.14.0\AndroidManifest.xml:3] Main manifest has <uses-sdk android:targetSdkVersion='22'> but library uses targetSdkVersion='23'
+Warning: [Temp\StagingArea\AndroidManifest-main.xml:4, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\facebook-android-wrapper-0.0.0\AndroidManifest.xml:3] Main manifest has <uses-sdk android:targetSdkVersion='22'> but library uses targetSdkVersion='23'
+[Temp\StagingArea\AndroidManifest-main.xml:53, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\play-services-ads-lite\AndroidManifest.xml:10] Skipping identical /manifest/application/activity[@name=com.google.android.gms.ads.AdActivity] element.
+[Temp\StagingArea\AndroidManifest-main.xml:9, E:\Users\Unity3D\Game\Temp\StagingArea\android-libraries\play-services-basement\AndroidManifest.xml:5] Skipping identical /manifest/application/meta-data[@name=com.google.android.gms.version] element.
+]
+UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg)
+UnityEditor.Android.AndroidSDKTools.RunCommandInternal (System.String javaExe, System.String sdkToolsDir, System.String[] sdkToolCommand, Int32 memoryMB, System.String workingdir, UnityEditor.Android.WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg)
+UnityEditor.Android.AndroidSDKTools.RunCommandSafe (System.String javaExe, System.String sdkToolsDir, System.String[] sdkToolCommand, Int32 memoryMB, System.String workingdir, UnityEditor.Android.WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg)
+UnityEditor.BuildPlayerWindow:BuildPlayerAndRun()
