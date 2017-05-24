@@ -1,0 +1,211 @@
+CommandInvokationFailure: Failed to re-package resources. See the Console for details.
+D:\Android\sdk\build-tools\25.0.2\aapt.exe package --auto-add-overlay -v -f -m -J gen -M AndroidManifest.xml -S "res" -I "D:/Android/sdk\platforms\android-23\android.jar" -F bin/resources.ap_ --extra-packages com.example.androidnative:com.example.an_billing:com.example.an_googleplay:com.chartboost.sdk.unity:com.example.an_social:android.support.customtabs:com.onesignal.onesignalsdk:com.google.android.gms.ads.impl:com.google.android.gms.ads:com.google.android.gms.analytics:com.google.android.gms.analytics:com.google.android.gms.appinvite:com.google.android.gms.auth.api:com.google.android.gms.auth:com.google.android.gms.base:com.google.android.gms.base:com.google.android.gms:com.google.android.gms:com.google.android.gms.drive:com.google.android.gms.games:com.google.android.gms.gcm:com.google.android.gms.gcm:com.google.android.gms.iid:com.google.android.gms.iid:com.google.android.gms.location:com.google.android.gms.plus:com.google.android.gms.tasks:android.support.v4:android.support.v4 -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\androidnative\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\an_billing\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\an_googleplay\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\AN_Res\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\an_social\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\customtabs-24.0.0\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\OneSignalConfig\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-ads\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-ads-lite\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-analytics\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-analytics-impl\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-appinvite\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-auth\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-auth-base\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base-10.0.1\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-basement\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-basement-10.0.1\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-drive\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-games\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-gcm\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-gcm-10.0.1\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-iid\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-iid-10.0.1\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-location-10.0.1\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-plus\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-tasks-10.0.1\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\support-v4-24.0.0\res" -S "E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\support-v4-24.1.1\res"
+
+stderr[
+E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base\res\values\values.xml:33: error: Attribute "imageAspectRatioAdjust" already defined with incompatible format.
+E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base-10.0.1\res\values\values.xml:34: Original attribute defined here.
+E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base\res\values\values.xml:46: error: Attribute "buttonSize" already defined with incompatible format.
+E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base-10.0.1\res\values\values.xml:47: Original attribute defined here.
+E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base\res\values\values.xml:54: error: Attribute "colorScheme" already defined with incompatible format.
+E:\Users\Unity3D\AndroidNativePlugin_v9.3\Temp\StagingArea\android-libraries\play-services-base-10.0.1\res\values\values.xml:55: Original attribute defined here.
+]
+stdout[
+Configurations:
+ (default)
+
+Files:
+  AndroidManifest.xml
+    Src: () AndroidManifest.xml
+
+Resource Dirs:
+Including resources from package: D:\Android\sdk\platforms\android-23\android.jar
+applyFileOverlay for drawable
+trying overlaySet Key=ic_plusone_medium_off_client.png
+trying overlaySet Key=ic_plusone_small_off_client.png
+trying overlaySet Key=ic_plusone_standard_off_client.png
+trying overlaySet Key=ic_plusone_tall_off_client.png
+trying overlaySet Key=common_full_open_on_phone.png
+trying overlaySet Key=common_google_signin_btn_icon_dark.xml
+trying overlaySet Key=common_google_signin_btn_icon_dark_disabled.9.png
+trying overlaySet Key=common_google_signin_btn_icon_dark_focused.xml
+trying overlaySet Key=common_google_signin_btn_icon_dark_normal.9.png
+trying overlaySet Key=common_google_signin_btn_icon_dark_pressed.9.png
+trying overlaySet Key=common_google_signin_btn_icon_light.xml
+trying overlaySet Key=common_google_signin_btn_icon_light_disabled.9.png
+trying overlaySet Key=common_google_signin_btn_icon_light_focused.xml
+trying overlaySet Key=common_google_signin_btn_icon_light_normal.9.png
+trying overlaySet Key=common_google_signin_btn_icon_light_pressed.9.png
+trying overlaySet Key=common_google_signin_btn_text_dark.xml
+trying overlaySet Key=common_google_signin_btn_text_dark_disabled.9.png
+trying overlaySet Key=common_google_signin_btn_text_dark_focused.xml
+trying overlaySet Key=common_google_signin_btn_text_dark_normal.9.png
+trying overlaySet Key=common_google_signin_btn_text_dark_pressed.9.png
+trying overlaySet Key=common_google_signin_btn_text_light.xml
+trying overlaySet Key=common_google_signin_btn_text_light_disabled.9.png
+trying overlaySet Key=common_google_signin_btn_text_light_focused.xml
+trying overlaySet Key=common_google_signin_btn_text_light_normal.9.png
+trying overlaySet Key=common_google_signin_btn_text_light_pressed.9.png
+trying overlaySet Key=common_full_open_on_phone.png
+baseFile 0 has flavor hdpi-v4
+baseFile 1 has flavor xhdpi-v4
+overlayFile 0 has flavor hdpi-v4
+overlayFile 1 has flavor xhdpi-v4
+found a match (0) for overlay file common_full_open_on_phone.png, for flavor hdpi-v4
+found a match (1) for overlay file common_full_open_on_phone.png, for flavor xhdpi-v4
+trying overlaySet Key=common_google_signin_btn_icon_dark.xml
+baseFile 0 has flavor 
+overlayFile 0 has flavor 
+found a match (0) for overlay file common_google_signin_btn_icon_dark.xml, for flavor 
+trying overlaySet Key=common_google_signin_btn_icon_dark_disabled.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_icon_dark_disabled.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_icon_dark_disabled.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_icon_dark_disabled.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_icon_dark_disabled.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_icon_dark_focused.xml
+baseFile 0 has flavor 
+overlayFile 0 has flavor 
+found a match (0) for overlay file common_google_signin_btn_icon_dark_focused.xml, for flavor 
+trying overlaySet Key=common_google_signin_btn_icon_dark_normal.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_icon_dark_normal.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_icon_dark_normal.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_icon_dark_normal.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_icon_dark_normal.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_icon_dark_pressed.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_icon_dark_pressed.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_icon_dark_pressed.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_icon_dark_pressed.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_icon_dark_pressed.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_icon_light.xml
+baseFile 0 has flavor 
+overlayFile 0 has flavor 
+found a match (0) for overlay file common_google_signin_btn_icon_light.xml, for flavor 
+trying overlaySet Key=common_google_signin_btn_icon_light_disabled.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_icon_light_disabled.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_icon_light_disabled.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_icon_light_disabled.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_icon_light_disabled.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_icon_light_focused.xml
+baseFile 0 has flavor 
+overlayFile 0 has flavor 
+found a match (0) for overlay file common_google_signin_btn_icon_light_focused.xml, for flavor 
+trying overlaySet Key=common_google_signin_btn_icon_light_normal.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_icon_light_normal.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_icon_light_normal.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_icon_light_normal.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_icon_light_normal.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_icon_light_pressed.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_icon_light_pressed.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_icon_light_pressed.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_icon_light_pressed.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_icon_light_pressed.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_text_dark.xml
+baseFile 0 has flavor 
+overlayFile 0 has flavor 
+found a match (0) for overlay file common_google_signin_btn_text_dark.xml, for flavor 
+trying overlaySet Key=common_google_signin_btn_text_dark_disabled.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_text_dark_disabled.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_text_dark_disabled.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_text_dark_disabled.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_text_dark_disabled.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_text_dark_focused.xml
+baseFile 0 has flavor 
+overlayFile 0 has flavor 
+found a match (0) for overlay file common_google_signin_btn_text_dark_focused.xml, for flavor 
+trying overlaySet Key=common_google_signin_btn_text_dark_normal.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_text_dark_normal.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_text_dark_normal.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_text_dark_normal.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_text_dark_normal.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_text_dark_pressed.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_text_dark_pressed.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_text_dark_pressed.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_text_dark_pressed.9.png, for flavor xhdpi-v4
+found a match (3) for overlay file common_google_signin_btn_text_dark_pressed.9.png, for flavor xxhdpi-v4
+trying overlaySet Key=common_google_signin_btn_text_light.xml
+baseFile 0 has flavor 
+overlayFile 0 has flavor 
+found a match (0) for overlay file common_google_signin_btn_text_light.xml, for flavor 
+trying overlaySet Key=common_google_signin_btn_text_light_disabled.9.png
+baseFile 0 has flavor mdpi-v4
+baseFile 1 has flavor hdpi-v4
+baseFile 2 has flavor xhdpi-v4
+baseFile 3 has flavor xxhdpi-v4
+overlayFile 0 has flavor mdpi-v4
+overlayFile 1 has flavor hdpi-v4
+overlayFile 2 has flavor xhdpi-v4
+overlayFile 3 has flavor xxhdpi-v4
+found a match (0) for overlay file common_google_signin_btn_text_light_disabled.9.png, for flavor mdpi-v4
+found a match (1) for overlay file common_google_signin_btn_text_light_disabled.9.png, for flavor hdpi-v4
+found a match (2) for overlay file common_google_signin_btn_text_light_disabled.9.png, for<message truncated>
